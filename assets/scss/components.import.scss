@@ -1,6 +1,6 @@
-@import '../assets/scss/components/components.player';
-@import '../assets/scss/components/components.sidebar';
-@import '../assets/scss/components/components.wrapper';
-@import '../assets/scss/components/main/components.main.content';
-@import '../assets/scss/components/main/components.main.footer';
-@import '../assets/scss/components/main/components.main.header';
+@import './components/components.player.scss';
+@import './components/components.wrapper';
+@import './components/components.sidebar';
+@import './components/main/components.main.content';
+@import './components/main/components.main.footer';
+@import './components/main/components.main.header';
