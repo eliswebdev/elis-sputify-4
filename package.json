@@ -4,7 +4,10 @@
   "description": "elis class project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack serve --open --config webpack.config.dev.js",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/eliswebdev/elis-sputify-4/issues"
   },
-  "homepage": "https://github.com/eliswebdev/elis-sputify-4#readme"
+  "homepage": "https://github.com/eliswebdev/elis-sputify-4#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.69.0",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
 }
